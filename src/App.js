@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import MarketLogo from './components/ItemComponent/MarketLogo'
-import logo from './assets/Images/logo1.png'
+import Icon from './components/ItemComponent/Icon'
+import location from './assets/Images/svg/location.svg'
 function App() {
   return (
     <div>
        <div className="container">
-       <MarketLogo img={logo}/>
+        <Icon item={true} img={location}/>
        </div>
     </div>
   )
