@@ -1,0 +1,25 @@
+.productitem__list{
+    max-width: 413px;
+    border-radius: 15px;
+    padding: 10px 5px 20px 5px;
+  
+    background-color: #F8F8F8;  
+    text-align: center;
+}
+.productitem__item{
+    max-width: 270px;
+    margin: 0 auto;
+    text-align: center;
+}
+.productitem__image{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+  
+}
+.productitem__text{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}

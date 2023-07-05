@@ -1,0 +1,27 @@
+.usluga__list{
+    max-width: 388px;
+    border-radius: 53px;
+   background-color: green; 
+   padding-bottom: 50px;
+}
+.usluga__img{
+    width: 100%;
+    height: 234px;  
+    margin-bottom: 20px;
+}
+.usluga__text{
+    max-width: 305px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.usluga__title{
+    margin-bottom: 10px;
+} 
+
+.usluga__button{
+    position: absolute;  
+    bottom: -70px;
+    left: 13px;
+    right: 0;
+}

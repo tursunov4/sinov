@@ -1,0 +1,26 @@
+.button__global{
+    display: block; 
+    width: 270px;
+    padding: 20px ;
+    display:block;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    color: white;
+    background:linear-gradient(90deg,#0D4C93, #00C9C9);
+    font-size: 17px;
+    cursor: pointer; 
+}
+.button__global2{
+    display: block; 
+    width: 270px;
+    padding: 10px ;
+    display:block;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    color: white;
+    background:linear-gradient(90deg,#0D4C93, #00C9C9);
+    font-size: 17px;
+    cursor: pointer; 
+}
