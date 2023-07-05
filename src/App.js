@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import UslugaItem from './components/ItemComponent/UslugaItem'
-import usuga from './assets/Images/usluga.png'
+import MarketLogo from './components/ItemComponent/MarketLogo'
+import logo from './assets/Images/logo1.png'
 function App() {
   return (
     <div>
        <div className="container">
-        <UslugaItem img={usuga}/>
+       <MarketLogo img={logo}/>
        </div>
     </div>
   )
