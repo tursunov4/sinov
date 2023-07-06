@@ -1,13 +1,14 @@
 import React from 'react'
 import './App.css'
-import Icon from './components/ItemComponent/Icon'
-import location from './assets/Images/svg/location.svg'
+import Mainpage from './views/Mainpage'
+import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <div>
-       <div className="container">
-        <Icon item={true} img={location}/>
-       </div>
+      <Routes>
+        <Route path='/' element={<Mainpage/>} />
+      </Routes>
+     
     </div>
   )
 }

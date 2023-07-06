@@ -1,0 +1,128 @@
+.splide-con {
+  max-width: 385px;
+
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color:#F6F6F6;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  overflow: none;
+  margin-top: 140px;
+  padding: 20px;
+}
+.carusel-section__title{
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46.88px;
+  color: #0D4C93;
+}
+
+.splide-chil {
+  max-width: 385px;
+  height: 470px;
+  background: 
+  linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0) 100%);
+
+  position: absolute;
+  z-index: -1;
+ 
+  border-radius: 35px;
+  border: 2px solid #f6f6f6;
+}
+
+.splide-img {
+  max-width: 320px;
+  height: 220px;
+  object-fit: cover;
+  position: relative;
+  top: -120px;
+  border-radius: 50px;
+  background-color: red;
+  /* z-index: 2; */
+}
+
+.splide-link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0d4c93;
+  position: relative;
+  top: -100px;
+}
+
+.splide-link:hover {
+  color: #00c9c9;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.splide-date {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0d4c93;
+  position: relative;
+  top: -87px;
+}
+
+.splide-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+
+.splid-button {
+  padding: 13px 70px;
+  background-color: red;
+  position: relative;
+  top: -40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  border-radius: 35px;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  color: white;
+  cursor: pointer;
+}
+.splide__arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #0D4C93 0%, #00C9C9 100%);
+
+}
+.splide__arrow--prev{
+    margin-left: 10px;
+}
+
+.splide__arrow--next{
+    margin-right: 10px;
+
+}
+
+.splide__pagination {
+ display: none;
+  }
+  @media only screen and (max-width: 540px){
+    .splide-img{
+      width: 250px;
+    }
+  }
+  @media only screen and (max-width: 415px){
+    .splide-img{
+      width: 220px;
+    }
+  }

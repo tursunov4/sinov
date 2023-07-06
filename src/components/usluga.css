@@ -1,8 +1,9 @@
 .usluga__list{
     max-width: 388px;
-    border-radius: 53px;
-   background-color: green; 
+    border-radius: 50px;
+   background-color: #fff; 
    padding-bottom: 50px;
+   margin-bottom: 50px;
 }
 .usluga__img{
     width: 100%;
@@ -16,7 +17,18 @@
     position: relative;
 }
 .usluga__title{
+    font-weight: 500;
     margin-bottom: 10px;
+    font-size: 20px;
+    line-height:  23.44px;
+    color:  #0D4C93;
+    letter-spacing: 6.5%;
+}
+.usluga__text > p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #000;
 } 
 
 .usluga__button{
@@ -24,4 +36,5 @@
     bottom: -70px;
     left: 13px;
     right: 0;
+    
 }

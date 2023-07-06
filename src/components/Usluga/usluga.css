@@ -1,0 +1,22 @@
+.usluga-section{
+    padding: 70px 0;
+    background-image: url('../.././assets/Images/png/uslugabag.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.useluga-section__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+@media only screen and (max-width: 1010px){
+  .useluga-section__wrapper{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
